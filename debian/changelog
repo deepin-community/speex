@@ -1,3 +1,12 @@
+speex (1.2.1-2deepin2) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-116741 (high) - bits: fix OOB write in
+    read_whole_bytes for non-owned buffers   Upstream:
+    https://github.com/xiph/speex/commit/09b569d1b437e5edccf3406a38714ad
+    795e46d38
+
+ -- deepin-ci-robot <packages@deepin.org>  Mon, 16 Nov 2026 14:56:42 +0800
+
 speex (1.2.1-2deepin1) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
